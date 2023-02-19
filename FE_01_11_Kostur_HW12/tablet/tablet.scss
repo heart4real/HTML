@@ -1,0 +1,551 @@
+@import "../source/null.scss";
+
+@mixin text ($h, $ff, $fs, $fw, $fz, $lh, $col) {
+    height: $h;
+    font-family: $ff;
+    font-style: $fs;
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    color: $col;
+}
+
+@mixin texx ($w, $h, $ff, $fs, $fw, $fz, $lh, $col, $l, $t) {
+    width: $w;
+    height: $h;
+    font-family: $ff;
+    font-style: $fs;
+    font-weight: $fw;
+    font-size: $fz;
+    line-height: $lh;
+    color: $col;
+    left: $l;
+    top: $t;
+}
+
+@mixin foto ($w, $h, $l, $r) {
+    width: $w;
+    height: $h;
+    left: $l;
+    top: $r;
+}
+
+@media (min-width: 768px) and (max-width: 1240px) {
+    .wrapper {
+        width: 768px;
+        height: 3679px;
+        position: absolute;
+        left: 300px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header {
+        width: 768px;
+        height: 700px;
+        // position: absolute;
+        background-image: url(../img/titletablet.png);
+
+        &_foto {
+            display: none;
+        }
+
+        &_logo {
+            @include texx(152px, 24px, 'Montserrat', normal, 700, 20px, 24px, #FFFFFF, 48px, 46px);
+            position: absolute;
+        }
+
+        &_log {
+            @include texx(44px, 17px, 'Montserrat', normal, 400, 14px, 17px, #FFFFFF, 565px, 50px);
+            position: absolute;
+        }
+
+        &_sign {
+            @include texx(55px, 17px, 'Montserrat', normal, 400, 14px, 17px, #FFFFFF, 646px, 50px);
+            position: absolute;
+        }
+
+
+        &_text {
+            position: absolute;
+            width: 470px;
+            height: 126px;
+            left: 149px;
+            top: 223.5px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        &_title {
+            width: 470px;
+            height: 126px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 63px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        &_sub {
+            @include texx (396px, 25px, 'Roboto', normal, 300, 24px, 24px, #F7F3F2, 186px, 378px);
+            position: absolute;
+        }
+
+        &_link {
+            position: absolute;
+            left: 150px;
+            top: 436px;
+        }
+
+        &_link_text {
+            padding-top: 13px;
+        }
+
+        // .content {
+        //     max-width: 768px;
+        // }
+    }
+
+    .content {
+        max-width: 768px;
+
+    }
+
+    .dreamshare {
+        width: 748px;
+        height: 461px;
+        position: absolute;
+        display: flex;
+        left: 0px;
+
+        &_title {
+            @include texx(289px, 27px, 'Montserrat', normal, 700, 22px, 27px, #444444, 240px, -1px);
+            position: absolute;
+        }
+
+        &_1 {
+            width: 220px;
+            height: 400px;
+            position: absolute;
+            left: 7px;
+            background-image: url(../img/suka.png);
+            background-size: cover;
+            border-radius: 4px;
+        }
+
+        // &_foto {
+        //     display: flex;
+        //     width: 768px;
+        //     height: 461px;
+        //     position: absolute;
+        // }
+        &_foto1 {
+            display: none;
+        }
+
+        &_step1 {
+            position: absolute;
+            left: 0px;
+            top: 205px;
+        }
+
+        &_stext12 {
+            @include texx(230px, 58px, 'Montserrat', normal, 700, 27px, 16px, #FFFFFF, 0px, 270px);
+            position: absolute;
+        }
+
+        &_stext13 {
+            @include texx(196px, 76px, 'Roboto', normal, 300, 14px, 14px, #E3E3E3, 0px, 334px);
+            position: absolute;
+        }
+
+        &_2 {
+            width: 232px;
+            height: 400px;
+            position: absolute;
+            left: 267px;
+            top: 60px;
+            background-image: url(../img/step2tablet.png);
+            background-size: cover;
+            border-radius: 4px;
+        }
+
+        &_foto2 {
+            // width: 220px;
+            // height: 400px;
+            display: none;
+        }
+
+        &_step2 {
+            position: absolute;
+            left: 20px;
+            top: 255px;
+        }
+
+        &_stext22 {
+            @include texx (150px, 29px, 'Montserrat', normal, 700, 24px, 14px, #FFFFFF, 18px, 292px);
+            position: absolute;
+        }
+
+        &_stext23 {
+            @include texx(190px, 57px, 'Roboto', normal, 300, 14px, 14px, #E3E3E3, 18px, 342px);
+            position: absolute;
+        }
+
+        &_3 {
+            width: 236px;
+            height: 400px;
+            position: absolute;
+            left: 519px;
+            top: 60px;
+            border-radius: 4px;
+            background-image: url(../img/step3tablet.png);
+            background-size: cover;
+        }
+
+        &_foto3 {
+            // width: 236px;
+            // height: 400px;
+            display: none;
+        }
+
+        &_step3 {
+            position: absolute;
+            left: 20px;
+            top: 205px;
+        }
+
+        &_stext31 {
+            @include texx(196px, 58px, 'Montserrat', normal, 700, 24px, 14px, #FFFFFF, 20px, 270px);
+            position: absolute;
+        }
+
+        &_stext32 {
+            @include texx(196px, 76px, 'Roboto', normal, 300, 14px, 14px, #E3E3E3, 20px, 330px);
+            position: absolute;
+        }
+    }
+
+    .meets {
+        max-width: 492px;
+        height: 605px;
+        display: flex;
+        position: absolute;
+        top: 651px;
+        left: 138px;
+        // margin-left: 138px;
+
+        &_title {
+            @include texx(416px, 27px, 'Montserrat', normal, 700, 22px, 27px, #444444, 36px, -1px);
+            position: absolute;
+        }
+
+        &_person1 {
+            position: absolute;
+            @include foto(236px, 205px, 0px, 61px);
+
+        }
+
+        &_ava1 {
+            @include foto(120px, 120px, 55px, 0px);
+            position: absolute;
+        }
+
+        &_avatarname1 {
+            @include texx(236px, 18px, 'Montserrat', normal, 700, 14px, 17px, #444444, -3px, 138px);
+            position: absolute;
+        }
+
+        &_avatarstory1 {
+            @include texx(236px, 38px, 'Roboto', normal, 300, 14px, 14px, #666666, 0px, 175px);
+            position: absolute;
+        }
+
+        &_person2 {
+            @include foto(236px, 205px, 0px, 320px);
+            position: absolute;
+        }
+
+        &_ava2 {
+            @include foto(120px, 120px, 55px, 0px);
+            position: absolute;
+        }
+
+        &_avatarname2 {
+            @include texx(236px, 18px, 'Montserrat', normal, 700, 14px, 17px, #444444, -3px, 138px);
+            position: absolute;
+        }
+
+
+        &_avatarstory2 {
+            @include texx(221px, 38px, 'Roboto', normal, 300, 14px, 14px, #666666, 5px, 175px);
+            position: absolute;
+        }
+
+        &_person3 {
+            @include foto(236px, 224px, 256px, 61px);
+            position: absolute;
+        }
+
+        &_ava3 {
+            @include foto(120px, 120px, 55px, 0px);
+            position: absolute;
+        }
+
+        &_avatarname3 {
+            @include texx(236px, 18px, 'Montserrat', normal, 700, 14px, 17px, #444444, -3px, 138px);
+            position: absolute;
+        }
+
+        &_avatarstory3 {
+            @include texx(236px, 57px, 'Roboto', normal, 300, 14px, 14px, #666666, -2px, 183px);
+            position: absolute;
+        }
+
+        &_person4 {
+            @include foto(236px, 205px, 256px, 320px);
+            position: absolute;
+        }
+
+        &_ava4 {
+            @include foto(120px, 120px, 55px, 0px);
+            position: absolute;
+        }
+
+        &_avatarname4 {
+            @include texx(236px, 18px, 'Montserrat', normal, 700, 14px, 17px, #444444, -3px, 138px);
+            position: absolute;
+        }
+
+        &_avatarstory4 {
+            @include texx(236px, 38px, 'Roboto', normal, 300, 14px, 14px, #666666, -1px, 175px);
+            position: absolute;
+        }
+
+        &_partners {
+            position: absolute;
+            left: 155px;
+            top: 563px;
+        }
+    }
+
+    .discover {
+        position: absolute;
+        top: 1350px;
+        left: 8px;
+        width: 748px;
+        height: 1031px;
+
+        &_title {
+            position: absolute;
+            @include foto(350px, 27px, 199px, 0px);
+        }
+
+        &_title_text {
+            @include text(27px, 'Montserrat', normal, 700, 22px, 27px, #444444);
+            text-align: center;
+        }
+
+        &_sport {
+            @include foto(236px, 310px, 0px, 61px);
+            position: absolute;
+            background: multiply black;
+            mix-blend-mode: normal;
+        }
+
+        &_foto1 {
+            width: 236px;
+            height: 310px;
+        }
+
+        &_text1 {
+            @include texx(180px, 54px, 'Montserrat', normal, 700, 22px, 27px, #FFFFFF, 27px, 115px);
+            position: absolute;
+            text-align: center;
+        }
+
+        &_wellnes {
+            @include foto(236px, 310px, 256px, 61px);
+            position: absolute;
+        }
+
+        &_foto2 {
+            width: 236px;
+            height: 310px;
+        }
+
+        &_text2 {
+            @include texx(206px, 54px, 'Montserrat', normal, 700, 22px, 27px, #FFFFFF, 15px, 128px);
+            position: absolute;
+            text-align: center;
+
+        }
+
+        &_extreme {
+            @include foto(236px, 310px, 512px, 61px);
+            position: absolute;
+        }
+
+        &_foto3 {
+            width: 236px;
+            height: 310px;
+        }
+
+        &_text3 {
+            @include texx(206px, 54px, 'Montserrat', normal, 700, 22px, 27px, #FFFFFF, 15px, 128px);
+            position: absolute;
+            text-align: center;
+        }
+
+        &_games {
+            @include foto(236px, 310px, 0px, 391px);
+            position: absolute;
+        }
+
+        &_foto4 {
+            width: 236px;
+            height: 310px;
+        }
+
+        &_text4 {
+            @include texx(206px, 27px, 'Montserrat', normal, 700, 22px, 27px, #FFFFFF, 15px, 142px);
+            position: absolute;
+        }
+
+        &_culture {
+            @include foto(492px, 310px, 256px, 391px);
+            position: absolute;
+        }
+
+        &_foto5 {
+            width: 492px;
+            height: 310px;
+        }
+
+        &_text5 {
+            @include texx(261px, 27px, 'Montserrat', normal, 700, 22px, 27px, #FFFFFF, 116px, 142px);
+            position: absolute;
+        }
+
+        &_enjomet {
+            @include foto(492px, 310px, 0px, 721px);
+            position: absolute;
+        }
+
+        &_foto6 {
+            width: 492px;
+            height: 310px;
+        }
+
+        &_text6 {
+            @include texx(400px, 27px, 'Montserrat', normal, 700, 22px, 27px, #FFFFFF, 108px, 142px);
+            position: absolute;
+        }
+
+        &_travel {
+            @include foto(236px, 310px, 512px, 721px);
+            position: absolute;
+        }
+
+        &_foto7 {
+            width: 236px;
+            height: 310px;
+        }
+
+        &_text7 {
+            @include texx(114px, 27px, 'Montserrat', normal, 700, 22px, 27px, #FFFFFF, 45px, 142px);
+            position: absolute;
+        }
+    }
+
+    .email {
+        position: absolute;
+        left: 143px;
+        top: 2478px;
+        width: 482px;
+        height: 158px;
+
+        &_title1 {
+            @include texx(303px, 27px, 'Montserrat', normal, 700, 22px, 27px, #444444, 90.5px, -1px);
+            position: absolute;
+        }
+
+        &_subtitle {
+            @include foto(415px, 24px, 33px, 70px);
+            position: absolute;
+        }
+
+        &_subtitle_text {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 14px;
+            text-align: center;
+            color: #666666;
+        }
+
+        &_active {
+            @include foto(482px, 40px, 0px, 118px);
+            position: absolute;
+        }
+
+        &_enter {
+            position: absolute;
+            width: 299px;
+            height: 40px;
+            left: 0px;
+            top: 0px;
+            background: #FFFFFF;
+            border: 1px solid #D4D4D4;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+            border-radius: 3px;
+        }
+    }
+    footer {
+        position: absolute;
+        width: 768px;
+        height: 224px;
+        top: 3435px;
+        border-top: 1px solid red;
+    }
+    .bot {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 36px;
+
+        &_dream {
+            position: absolute;
+            left: 39px;
+            top: 0px;
+        }
+
+        &_company {
+            position: absolute;
+            left: 266px;
+            top: 4px;
+        }
+
+        &_partneru {
+            position: absolute;
+            @include foto(64px, 17px, 436px, 4px);
+        }
+
+        &_logo_name {
+            position: absolute;
+            left: 648px;
+            top: 4px;
+        }
+
+        &_logo {
+            @include foto(110px, 24px, 618px,19px);
+            position: absolute;
+        }
+    }
+
+}

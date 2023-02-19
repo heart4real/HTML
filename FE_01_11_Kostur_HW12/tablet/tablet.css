@@ -1,0 +1,815 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+@media (min-width: 768px) and (max-width: 1240px) {
+  .wrapper {
+    width: 768px;
+    height: 3679px;
+    position: absolute;
+    left: 300px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header {
+    width: 768px;
+    height: 700px;
+    background-image: url(../img/titletablet.png);
+  }
+  .header_foto {
+    display: none;
+  }
+  .header_logo {
+    width: 152px;
+    height: 24px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    left: 48px;
+    top: 46px;
+    position: absolute;
+  }
+  .header_log {
+    width: 44px;
+    height: 17px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    left: 565px;
+    top: 50px;
+    position: absolute;
+  }
+  .header_sign {
+    width: 55px;
+    height: 17px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    left: 646px;
+    top: 50px;
+    position: absolute;
+  }
+  .header_text {
+    position: absolute;
+    width: 470px;
+    height: 126px;
+    left: 149px;
+    top: 223.5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .header_title {
+    width: 470px;
+    height: 126px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .header_sub {
+    width: 396px;
+    height: 25px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    color: #F7F3F2;
+    left: 186px;
+    top: 378px;
+    position: absolute;
+  }
+  .header_link {
+    position: absolute;
+    left: 150px;
+    top: 436px;
+  }
+  .header_link_text {
+    padding-top: 13px;
+  }
+  .content {
+    max-width: 768px;
+  }
+  .dreamshare {
+    width: 748px;
+    height: 461px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0px;
+  }
+  .dreamshare_title {
+    width: 289px;
+    height: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #444444;
+    left: 240px;
+    top: -1px;
+    position: absolute;
+  }
+  .dreamshare_1 {
+    width: 220px;
+    height: 400px;
+    position: absolute;
+    left: 7px;
+    background-image: url(../img/suka.png);
+    background-size: cover;
+    border-radius: 4px;
+  }
+  .dreamshare_foto1 {
+    display: none;
+  }
+  .dreamshare_step1 {
+    position: absolute;
+    left: 0px;
+    top: 205px;
+  }
+  .dreamshare_stext12 {
+    width: 230px;
+    height: 58px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 16px;
+    color: #FFFFFF;
+    left: 0px;
+    top: 270px;
+    position: absolute;
+  }
+  .dreamshare_stext13 {
+    width: 196px;
+    height: 76px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+    left: 0px;
+    top: 334px;
+    position: absolute;
+  }
+  .dreamshare_2 {
+    width: 232px;
+    height: 400px;
+    position: absolute;
+    left: 267px;
+    top: 60px;
+    background-image: url(../img/step2tablet.png);
+    background-size: cover;
+    border-radius: 4px;
+  }
+  .dreamshare_foto2 {
+    display: none;
+  }
+  .dreamshare_step2 {
+    position: absolute;
+    left: 20px;
+    top: 255px;
+  }
+  .dreamshare_stext22 {
+    width: 150px;
+    height: 29px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    color: #FFFFFF;
+    left: 18px;
+    top: 292px;
+    position: absolute;
+  }
+  .dreamshare_stext23 {
+    width: 190px;
+    height: 57px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+    left: 18px;
+    top: 342px;
+    position: absolute;
+  }
+  .dreamshare_3 {
+    width: 236px;
+    height: 400px;
+    position: absolute;
+    left: 519px;
+    top: 60px;
+    border-radius: 4px;
+    background-image: url(../img/step3tablet.png);
+    background-size: cover;
+  }
+  .dreamshare_foto3 {
+    display: none;
+  }
+  .dreamshare_step3 {
+    position: absolute;
+    left: 20px;
+    top: 205px;
+  }
+  .dreamshare_stext31 {
+    width: 196px;
+    height: 58px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+    color: #FFFFFF;
+    left: 20px;
+    top: 270px;
+    position: absolute;
+  }
+  .dreamshare_stext32 {
+    width: 196px;
+    height: 76px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+    left: 20px;
+    top: 330px;
+    position: absolute;
+  }
+  .meets {
+    max-width: 492px;
+    height: 605px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 651px;
+    left: 138px;
+  }
+  .meets_title {
+    width: 416px;
+    height: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #444444;
+    left: 36px;
+    top: -1px;
+    position: absolute;
+  }
+  .meets_person1 {
+    position: absolute;
+    width: 236px;
+    height: 205px;
+    left: 0px;
+    top: 61px;
+  }
+  .meets_ava1 {
+    width: 120px;
+    height: 120px;
+    left: 55px;
+    top: 0px;
+    position: absolute;
+  }
+  .meets_avatarname1 {
+    width: 236px;
+    height: 18px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    left: -3px;
+    top: 138px;
+    position: absolute;
+  }
+  .meets_avatarstory1 {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    left: 0px;
+    top: 175px;
+    position: absolute;
+  }
+  .meets_person2 {
+    width: 236px;
+    height: 205px;
+    left: 0px;
+    top: 320px;
+    position: absolute;
+  }
+  .meets_ava2 {
+    width: 120px;
+    height: 120px;
+    left: 55px;
+    top: 0px;
+    position: absolute;
+  }
+  .meets_avatarname2 {
+    width: 236px;
+    height: 18px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    left: -3px;
+    top: 138px;
+    position: absolute;
+  }
+  .meets_avatarstory2 {
+    width: 221px;
+    height: 38px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    left: 5px;
+    top: 175px;
+    position: absolute;
+  }
+  .meets_person3 {
+    width: 236px;
+    height: 224px;
+    left: 256px;
+    top: 61px;
+    position: absolute;
+  }
+  .meets_ava3 {
+    width: 120px;
+    height: 120px;
+    left: 55px;
+    top: 0px;
+    position: absolute;
+  }
+  .meets_avatarname3 {
+    width: 236px;
+    height: 18px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    left: -3px;
+    top: 138px;
+    position: absolute;
+  }
+  .meets_avatarstory3 {
+    width: 236px;
+    height: 57px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    left: -2px;
+    top: 183px;
+    position: absolute;
+  }
+  .meets_person4 {
+    width: 236px;
+    height: 205px;
+    left: 256px;
+    top: 320px;
+    position: absolute;
+  }
+  .meets_ava4 {
+    width: 120px;
+    height: 120px;
+    left: 55px;
+    top: 0px;
+    position: absolute;
+  }
+  .meets_avatarname4 {
+    width: 236px;
+    height: 18px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+    left: -3px;
+    top: 138px;
+    position: absolute;
+  }
+  .meets_avatarstory4 {
+    width: 236px;
+    height: 38px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    left: -1px;
+    top: 175px;
+    position: absolute;
+  }
+  .meets_partners {
+    position: absolute;
+    left: 155px;
+    top: 563px;
+  }
+  .discover {
+    position: absolute;
+    top: 1350px;
+    left: 8px;
+    width: 748px;
+    height: 1031px;
+  }
+  .discover_title {
+    position: absolute;
+    width: 350px;
+    height: 27px;
+    left: 199px;
+    top: 0px;
+  }
+  .discover_title_text {
+    height: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #444444;
+    text-align: center;
+  }
+  .discover_sport {
+    width: 236px;
+    height: 310px;
+    left: 0px;
+    top: 61px;
+    position: absolute;
+    background: multiply black;
+    mix-blend-mode: normal;
+  }
+  .discover_foto1 {
+    width: 236px;
+    height: 310px;
+  }
+  .discover_text1 {
+    width: 180px;
+    height: 54px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    left: 27px;
+    top: 115px;
+    position: absolute;
+    text-align: center;
+  }
+  .discover_wellnes {
+    width: 236px;
+    height: 310px;
+    left: 256px;
+    top: 61px;
+    position: absolute;
+  }
+  .discover_foto2 {
+    width: 236px;
+    height: 310px;
+  }
+  .discover_text2 {
+    width: 206px;
+    height: 54px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    left: 15px;
+    top: 128px;
+    position: absolute;
+    text-align: center;
+  }
+  .discover_extreme {
+    width: 236px;
+    height: 310px;
+    left: 512px;
+    top: 61px;
+    position: absolute;
+  }
+  .discover_foto3 {
+    width: 236px;
+    height: 310px;
+  }
+  .discover_text3 {
+    width: 206px;
+    height: 54px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    left: 15px;
+    top: 128px;
+    position: absolute;
+    text-align: center;
+  }
+  .discover_games {
+    width: 236px;
+    height: 310px;
+    left: 0px;
+    top: 391px;
+    position: absolute;
+  }
+  .discover_foto4 {
+    width: 236px;
+    height: 310px;
+  }
+  .discover_text4 {
+    width: 206px;
+    height: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    left: 15px;
+    top: 142px;
+    position: absolute;
+  }
+  .discover_culture {
+    width: 492px;
+    height: 310px;
+    left: 256px;
+    top: 391px;
+    position: absolute;
+  }
+  .discover_foto5 {
+    width: 492px;
+    height: 310px;
+  }
+  .discover_text5 {
+    width: 261px;
+    height: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    left: 116px;
+    top: 142px;
+    position: absolute;
+  }
+  .discover_enjomet {
+    width: 492px;
+    height: 310px;
+    left: 0px;
+    top: 721px;
+    position: absolute;
+  }
+  .discover_foto6 {
+    width: 492px;
+    height: 310px;
+  }
+  .discover_text6 {
+    width: 400px;
+    height: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    left: 108px;
+    top: 142px;
+    position: absolute;
+  }
+  .discover_travel {
+    width: 236px;
+    height: 310px;
+    left: 512px;
+    top: 721px;
+    position: absolute;
+  }
+  .discover_foto7 {
+    width: 236px;
+    height: 310px;
+  }
+  .discover_text7 {
+    width: 114px;
+    height: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    left: 45px;
+    top: 142px;
+    position: absolute;
+  }
+  .email {
+    position: absolute;
+    left: 143px;
+    top: 2478px;
+    width: 482px;
+    height: 158px;
+  }
+  .email_title1 {
+    width: 303px;
+    height: 27px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #444444;
+    left: 90.5px;
+    top: -1px;
+    position: absolute;
+  }
+  .email_subtitle {
+    width: 415px;
+    height: 24px;
+    left: 33px;
+    top: 70px;
+    position: absolute;
+  }
+  .email_subtitle_text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+  }
+  .email_active {
+    width: 482px;
+    height: 40px;
+    left: 0px;
+    top: 118px;
+    position: absolute;
+  }
+  .email_enter {
+    position: absolute;
+    width: 299px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+    border-radius: 3px;
+  }
+  footer {
+    position: absolute;
+    width: 768px;
+    height: 224px;
+    top: 3435px;
+    border-top: 1px solid red;
+  }
+  .bot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 36px;
+  }
+  .bot_dream {
+    position: absolute;
+    left: 39px;
+    top: 0px;
+  }
+  .bot_company {
+    position: absolute;
+    left: 266px;
+    top: 4px;
+  }
+  .bot_partneru {
+    position: absolute;
+    width: 64px;
+    height: 17px;
+    left: 436px;
+    top: 4px;
+  }
+  .bot_logo_name {
+    position: absolute;
+    left: 648px;
+    top: 4px;
+  }
+  .bot_logo {
+    width: 110px;
+    height: 24px;
+    left: 618px;
+    top: 19px;
+    position: absolute;
+  }
+}
